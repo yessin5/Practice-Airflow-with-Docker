@@ -22,3 +22,6 @@ To start, you have to be familiar with docker fundamentals.
   
   http://0.0.0.0:8080/
 - The rest is easy, you have to write the python script for each DAG, check if there's errors and run it on the Airflow UI.
+- To close Airflow (removing the existing container), you have to type:
+
+  ```docker-compose -down -v```
